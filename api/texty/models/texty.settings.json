@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "texties",
+  "info": {
+    "name": "Texty",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "texte": {
+      "type": "string"
+    },
+    "auteur": {
+      "type": "string"
+    },
+    "validation": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
